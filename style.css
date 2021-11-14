@@ -1,0 +1,73 @@
+* {
+    font-family: "Monsterrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div {
+    display: block;
+}
+
+/* SECTION HEADER*/
+header {
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 0px rgba(0,0, 0, 0.5);
+}
+
+header .logo img {
+    width: 140px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a{
+    background: #F40612;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+/*END HEADER*/
+
+
+/*SECTION BANNER*/
+.banner h1 {
+    margin-bottom: 20px;
+}
+
+.banner .banner-description {
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.banner-wrapper {
+    background: #eee;
+}
+
+.banner{
+    padding: 170px;
+    background: #eee;
+    text-align: center;
+    min-width: 1024px;
+    margin: auto;}
+
+.banner .banner-subsciption input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.banner .banner-subsciption button {
+    width: 100%;
+}
+
+.kotak {
+    width: 150px;
+    height: 150px;
+}
+/* END BANNER*/
